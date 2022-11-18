@@ -1,0 +1,84 @@
+/* commmon css codes start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Abril Fatface', cursive;
+    font-family: 'Open Sans', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+/* commmon css codes end */
+/* header css codes end */
+.top_bar{
+    background-color: #0f2f44;
+}
+.top_bar p{
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 0;
+}
+.top_bar #p1{
+    width: 200px;
+}
+.top_bar #p2{
+    width: 285px;
+}
+.top_bar .container .row{
+    justify-content: space-between;
+}
+nav .container .row .logo{
+    width: 20%;
+}
+nav .container .row .menue{
+    width: 80%;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li a{
+    display: inline-block;
+    color: #222;
+    padding: 40px 19px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+nav ul .icon{
+    padding: 40px 19px;
+}
+nav .row{
+    align-items: center;
+}
+nav .container .row .menue ul li:hover a{
+    color: #ffc712;
+    background-color: #fff9e6;
+}
+nav .container .row .menue ul li>i{
+    border: 1px solid #999;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    cursor: pointer;
+}
+/* header css codes end */
